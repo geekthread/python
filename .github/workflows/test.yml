@@ -6,7 +6,7 @@ jobs:
     steps:
       - name: "Checkout code"
         uses: |
-          actions/checkout@v2 myfolder
+          actions/checkout@v6 myfolder
       - name: "List files in myfolder"
         run: |
            cd myfolder && ls -lhrt
