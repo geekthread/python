@@ -11,3 +11,8 @@ jobs:
       - name: "List files in myfolder"
         run: |
            cd myfolder && ls -lhrt
+      - name: "Run tests"
+        run: |  
+            cd myfolder && echo "Running tests..." 
+            python -m unittest discover -s tests
+        
