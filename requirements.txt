@@ -1,16 +1,1 @@
 langchain
-ipython
-openai
-openssl
-python-dotenv
-requests
-streamlit
-streamlit-chat
-streamlit-lottie
-streamlit-option-menu
-streamlit-pydantic
-streamlit-typed-forms
-streamlit-typed-forms-core
-streamlit-typed-forms-streamlit
-streamlit-typed-forms-validators
-streamlit-typed-forms-validators-core
