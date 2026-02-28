@@ -1,4 +1,4 @@
-name: "Hello Workflow"
+name: "setupworkflow"
 on: [workflow_dispatch]
 jobs:
   build:
