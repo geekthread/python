@@ -5,8 +5,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: "Checkout code"
-        uses: |
-          actions/checkout@v6 myfolder
+        uses: actions/checkout@v4
+        with:
+          path: myfolder
       - name: "List files in myfolder"
         run: |
            cd myfolder && ls -lhrt
