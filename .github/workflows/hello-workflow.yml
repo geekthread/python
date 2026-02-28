@@ -26,4 +26,6 @@ jobs:
           pip install -r requirements.txt
       - name: Run  Redis Benchmark
         run: |
+          sudo apt-get update
+          sudo apt-get install -y redis-tools
           redis-benchmark -h localhost -p 6379 -n 10000
